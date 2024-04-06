@@ -2,7 +2,7 @@
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
 ## 💻 Prévia do projeto
-<img src="/AngularUserFilter.gif" alt="Gif do projeto User Filter"/>
+<img src="/IPsLocator.gif" alt="Gif do projeto IPs Locator"/>
 
 ## 🔗 Link de downloand
 https://github.com/Ital023/IP-Server-Project.git
