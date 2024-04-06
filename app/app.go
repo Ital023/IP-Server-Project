@@ -32,6 +32,12 @@ func Generate() *cli.App{
 			Flags: flags,
 			Action: findIps,
 		},
+		{
+			Name: "servers",
+			Usage: "Find Servers name on internet",
+			Flags: flags,
+			Action: findServers,
+		},
 	}
 	return app
 }
@@ -50,4 +56,19 @@ func findIps (c *cli.Context){
 	for _,ip := range ips {
 		fmt.Println(ip)
 	}
+}
+
+func findServers (c *cli.Context){
+	host := c.String("host")
+
+	servers, erro := net.LookupNS(host)
+
+	if erro != nil {
+		log.Fatal(erro)
+	}
+
+	for _,server := range servers{
+		fmt.Println(server.Host)
+	}
+
 }
