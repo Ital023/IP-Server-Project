@@ -4,7 +4,7 @@
 ## 💻 Prévia do projeto
 <img src="/IPsLocator.gif" alt="Gif do projeto IPs Locator"/>
 
-## 🔗 Link de downloand
+## 🔗 Link de download
 https://github.com/Ital023/IP-Server-Project.git
 
 ## :rocket: Sobre o projeto
